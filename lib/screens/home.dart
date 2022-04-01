@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
             index = i;
           });
         },
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.grey[400],
         selectedItemColor: Colors.white,
         iconSize: 48,
         items: const [
