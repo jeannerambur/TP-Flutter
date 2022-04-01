@@ -28,11 +28,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.grey,
+        primarySwatch: Colors.grey,
       ),
       debugShowCheckedModeBanner: false,
-      routes: routes,
-      initialRoute: '/home',
+      home: const MyHomePage(title: 'Flutter'),
     );
   }
 }
